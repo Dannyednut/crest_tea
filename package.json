@@ -1,6 +1,7 @@
 {
   "name": "crest-rise",
   "version": "1.0.0",
+  "type": "module",
   "description": "A simple game where you guess a secret number",
   "main": "index.js",
   "scripts": {
@@ -8,6 +9,7 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "crest-rise": "^1.0.0",
     "ethers": "^5.6.8",
     "web3": "^1.7.4"
   },
@@ -17,8 +19,8 @@
     "url": "https://github.com/Dannyednut/crest_tea/issues"
   },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/Dannyednut/crest_tea.git"
+    "type": "git",
+    "url": "https://github.com/Dannyednut/crest_tea.git"
   },
   "homepage": "https://github.com/Dannyednut/crest_tea#readme"
 }
